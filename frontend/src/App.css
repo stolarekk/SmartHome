@@ -1,0 +1,26 @@
+
+.app {
+	display: flex;
+	gap: 1.6rem;
+	height: 100vh;
+	position: relative;
+}
+
+
+.app-main {
+	width: 100%;
+	overflow-y: auto;
+}
+
+.prevent-select {
+	user-select: none;
+}
+
+@media (max-width: 1050px){
+	.app {
+		gap: 0.8rem;
+		height: initial;
+		flex-direction: column;
+	}
+	
+}

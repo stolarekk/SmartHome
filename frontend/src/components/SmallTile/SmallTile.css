@@ -1,0 +1,51 @@
+.smallTile {
+	background-color: rgba(0, 0, 0, 0.25);
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	min-height: 5rem;
+	border-radius: 28px;
+	padding: 0.9rem;
+	padding-right: 2.7rem;
+}
+.smallTile-icon {
+	min-width: 2.4rem;
+	min-height: 2.4rem;
+}
+
+.smallTile-icon-humidity {
+	fill: #74cbf4;
+}
+
+.smallTile-icon-pressure {
+	fill: #e1f9ff;
+}
+
+.smallTile-icon-bulb {
+	fill: #ffd500;
+}
+
+.smallTile-icon-locked {
+	fill: rgb(187, 255, 0);
+}
+
+.smallTile-icon-unlocked {
+	fill: rgb(255, 145, 0);
+}
+
+.smallTile-icon-temp {
+	stroke: #ffa87c;
+	fill: #ffa87c;
+}
+
+.smallTile-text {
+	font-size: 1.3rem;
+	color: #eee;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.smallTile-text--bold {
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: #fff;
+}

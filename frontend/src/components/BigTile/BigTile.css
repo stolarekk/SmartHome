@@ -1,0 +1,62 @@
+.big-tile {
+	background-color: rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: flex-start;
+	justify-content: space-between;
+	height: 15rem;
+	width: 22rem;
+	border-radius: 24px;
+	padding: 1.2rem;
+	cursor: pointer;
+	margin-bottom: 2rem;
+}
+
+.big-tile--icon {
+	background-color: rgba(0, 0, 0, 0.15);
+	width: 4.5rem;
+	height: 4.5rem;
+	border-radius: 40%;
+	padding: 0.8rem;
+}
+
+.big-tile--icon-locked {
+	stroke: rgb(187, 255, 0);
+}
+
+.big-tile--icon-unlocked {
+	stroke: rgb(254, 127, 113);
+}
+.big-tile--icon-temp {
+	stroke: #ffa87c;
+	fill: #ffa87c;
+}
+
+.big-tile-upper-row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.big-tile--additional-text {
+	font-size: 2.4rem;
+	font-weight: 500;
+	padding-right: 0.8rem;
+}
+
+.big-tile--column {
+	display: flex;
+	flex-direction: column;
+}
+
+.big-tile--text {
+	font-size: 1.5rem;
+	transition: color 0.2s;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.big-tile--text-bold {
+	font-weight: 500;
+}

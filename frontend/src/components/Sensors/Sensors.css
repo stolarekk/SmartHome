@@ -1,0 +1,20 @@
+
+.chart{
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.9);
+    min-width: 25rem;
+    max-width: 55rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appPage-row--charts {
+    min-height: 20rem;
+    max-height: 30rem;
+	display: flex;
+	gap: 1.2rem;
+    flex: 1;
+}
