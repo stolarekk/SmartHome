@@ -2,7 +2,9 @@ backend/node_modules
 frontend/node_modules
 backend/aws-dynamoDB/aws-config.js
 backend/mqtt/cert
-
+iot-devices/ESP32/secrets.h
+iot-devices/esp8266/secrets.h
+iot-devices/ESP32-CAM/secrets.h
 #amplify-do-not-edit-begin
 frontend/amplify/\#current-cloud-backend
 frontend/amplify/.config/local-*

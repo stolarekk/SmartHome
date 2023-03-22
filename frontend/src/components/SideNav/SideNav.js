@@ -24,32 +24,32 @@ function SideNav(props) {
 					</Link>
 					<Link className='link' to='/lights'>
 						<li className={location === "/lights" ? "sideNav-list-active" : ""}>
-							<HiOutlineLightBulb className='sideNav-icon' /> Lights
+							<HiOutlineLightBulb className='sideNav-icon' /> <span className="sideNav-list-text">Lights</span>
 						</li>
 					</Link>
 					<Link className='link' to='/cameras'>
 						<li
 							className={location === "/cameras" ? "sideNav-list-active" : ""}>
-							<HiOutlineCamera className='sideNav-icon' /> Cameras
+							<HiOutlineCamera className='sideNav-icon' /> <span className="sideNav-list-text">Cameras</span>
 						</li>
 					</Link>
 					<Link className='link' to='/sensors'>
 						<li
 							className={location === "/sensors" ? "sideNav-list-active" : ""}>
-							<HiOutlinePresentationChartLine className='sideNav-icon' />{" "} Sensors
+							<HiOutlinePresentationChartLine className='sideNav-icon' />{" "} <span className="sideNav-list-text">Sensors</span>
 						</li>
 					</Link>
 					<Link className='link' to='/heating'>
 						<li
 							className={location === "/heating" ? "sideNav-list-active" : ""}>
-							<HiOutlineSun className='sideNav-icon' /> Heating Central
+							<HiOutlineSun className='sideNav-icon' /> <span className="sideNav-list-text">Heating Central</span>
 						</li>
 					</Link>
 				</ul>
 			</div>
 			<ul className='sideNav-list'>
 				<li className='logout' onClick={props.logout}>
-					<HiOutlineArrowLeftOnRectangle className='sideNav-icon' /> Logout
+					<HiOutlineArrowLeftOnRectangle className='sideNav-icon' /> <span className="sideNav-list-text">Logout</span>
 				</li>
 			</ul>
 		</div>

@@ -51,5 +51,13 @@
 	border-radius: 0 28px 28px 0;
 }
 
-@media (min-width: 1050px){
+@media (max-width: 1050px){
+	.appPage {
+		display: flex;
+		flex-direction: column;
+		gap: 1.2rem;
+		padding: 1.2rem;
+		color: #fffafa;
+		height: 100%;
+	}
 }
